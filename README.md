@@ -1,5 +1,5 @@
 
-# SR-ERM (Regular Simplex Shifting) — Skin Cancer (MobileNetV3-Small)
+# SR-ERM (Regular Simplex Shifting)
 
 This repo is a project-ready reference implementation of the **sampling-based pathway** in Appendix C
 (Algorithms 1–3) of *Regular Simplex Shifting*, adapted to an image dataset already split into
