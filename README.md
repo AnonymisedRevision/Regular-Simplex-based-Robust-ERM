@@ -26,6 +26,10 @@ SKIN/
 
 ## Install
 ```bash
+git lfs install
+git clone https://github.com/AnonymisedRevision/Regular-Simplex-based-Robust-ERM.git
+cd .\Regular-Simplex-based-Robust-ERM
+git lfs pull
 pip install -r requirements.txt
 ```
 
