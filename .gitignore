@@ -8,3 +8,6 @@ __pycache__/
 *.ckpt
 runs/**/tensorboard/
 runs/**/events.out.tfevents*
+
+!SKIN.zip
+
