@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# Regular-Simplex-based-Robust-ERM
-=======
+
 # SR-ERM (Regular Simplex Shifting) — Skin Cancer (MobileNetV3-Small)
 
 This repo is a project-ready reference implementation of the **sampling-based pathway** in Appendix C
@@ -49,4 +47,3 @@ This will:
 - `out_dir/metrics.json` — baseline and SR-ERM metrics (acc, AUC, F1, confusion matrix)
 - `out_dir/tensorboard/` — TensorBoard logs (optional; enabled by default)
 
->>>>>>> 56a0815 (initial full upload)
