@@ -1,0 +1,11 @@
+torch>=2.1
+numpy>=1.23
+scikit-learn>=1.2
+tqdm>=4.66
+pyyaml>=6.0
+pandas>=2.0
+tensorboard>=2.14
+pillow>=10.0
+timm>=0.9.12
+# torchvision is optional but recommended; if missing/broken, the repo falls back to pure-Python datasets/transforms + timm model.
+torchvision>=0.16

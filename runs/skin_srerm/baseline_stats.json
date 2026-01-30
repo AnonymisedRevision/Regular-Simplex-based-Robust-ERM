@@ -1,0 +1,6 @@
+{
+  "baseline_best_val_loss": 0.5857525448549418,
+  "baseline_val_accuracy": 0.6639650872817955,
+  "baseline_val_auc": 0.8161014341301417,
+  "baseline_val_f1": 0.6045487894350697
+}

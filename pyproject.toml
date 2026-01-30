@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "srerm-skin"
+version = "0.1.0"
+description = "SR-ERM (Regular Simplex Shifting) project-ready training for SKIN dataset."
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["srerm_skin*"]

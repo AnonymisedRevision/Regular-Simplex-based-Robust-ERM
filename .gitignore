@@ -1,0 +1,10 @@
+﻿
+SKIN.zip
+__pycache__/
+*.py[cod]
+*.pkl
+*.pt
+*.pth
+*.ckpt
+runs/**/tensorboard/
+runs/**/events.out.tfevents*

@@ -1,0 +1,36 @@
+# Default hyperparameters for SKIN SR-ERM training (MobileNetV3-Small)
+data:
+  image_size: 224
+  train_aug: true
+  val_ratio: 0.2
+
+simplex:
+  latent_dim: 10
+  epsilon: 0.5
+  tau_R: null
+  vertex_k: 256
+  refine_swaps: 0
+  radius: null
+
+baseline:
+  epochs: 10
+  lr: 0.0003
+  weight_decay: 0.0001
+
+srerm:
+  epochs: 20
+  steps_per_epoch: 300
+  batch_size: 32
+  lr: 0.0003
+  weight_decay: 0.0001
+  patience: 200
+  tolerance_tau: 0.0
+  num_runs: 1
+  init_from: baseline
+
+runtime:
+  seed: 42
+  deterministic: true
+  num_workers: 4
+  fp16: true
+  device: cuda
